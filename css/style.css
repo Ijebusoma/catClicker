@@ -1,8 +1,9 @@
 
 body
 {
-color:blue;
+margin:0;
 }
+/**
 .cat
 {
 max-width:100%;
@@ -12,7 +13,8 @@ top:50px;
 width:200px;
 height:150px;
 }
-.catname
+**/
+h3
 {
 font-family: 'Ranga', cursive;
 font-size:30px;
@@ -30,4 +32,23 @@ bottom:20px;
 {
 position:relative;
 left:50px;
+}
+.top
+{
+position:relative;
+top:100px;
+}
+.catlist
+{
+list-style-type:none;
+text-align:center;
+}
+
+img
+{
+border-radius:10px;
+max-width:100%;
+width:500px;
+
+
 }
